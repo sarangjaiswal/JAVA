@@ -56,3 +56,20 @@ The release after Mars (4.5) will no longer support the deprecated usage!
 
 !ENTRY com.amazonaws.eclipse.core 1 0 2017-05-24 19:59:02.378
 !MESSAGE Initialized a new Cognito identity us-east-1:a356e7b0-1f2e-4f2f-86d0-b3a12956706e
+
+!ENTRY org.testng.eclipse 1 0 2017-05-24 20:10:35.425
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] AppOne.java [in <default> [in src [in LearnTestNG]]]
+  import org.testng.annotations.Test
+  import org.testng.annotations.AfterClass
+  class AppOne
+    void TestOne()
+    void TestTwo()
+    void AfterClass()
+
+!ENTRY org.testng.eclipse 1 0 2017-05-24 20:10:39.717
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar C:\Users\SARANG\OneDrive\Workspace\JAVA\LearnTestNG\bin C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52149 -protocol json -d C:\Users\SARANG\OneDrive\Workspace\JAVA\LearnTestNG\test-output C:\Users\SARANG\AppData\Local\Temp\testng-eclipse-322200763\testng-customsuite.xml
+java -ea -classpath C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\Users\SARANG\OneDrive\Workspace\JAVA\LearnTestNG\bin:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 52149 -protocol json -d C:\Users\SARANG\OneDrive\Workspace\JAVA\LearnTestNG\test-output C:\Users\SARANG\AppData\Local\Temp\testng-eclipse-322200763\testng-customsuite.xml
