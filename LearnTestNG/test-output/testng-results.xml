@@ -1,24 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="115" started-at="2017-05-25T00:10:43Z" finished-at="2017-05-25T00:10:43Z">
+  <suite name="Default suite" duration-ms="43" started-at="2017-05-25T00:20:30Z" finished-at="2017-05-25T00:20:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="115" started-at="2017-05-25T00:10:43Z" finished-at="2017-05-25T00:10:43Z">
+    <test name="Default test" duration-ms="43" started-at="2017-05-25T00:20:30Z" finished-at="2017-05-25T00:20:30Z">
       <class name="AppOne">
-        <test-method status="PASS" signature="TestOne()[pri:0, instance:AppOne@174d20a]" name="TestOne" duration-ms="32" started-at="2017-05-24T20:10:43Z" finished-at="2017-05-24T20:10:43Z">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:AppOne@48eff760]" name="BeforeSuite" is-config="true" duration-ms="10" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:AppOne@48eff760]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="TestFour()[pri:0, instance:AppOne@48eff760]" name="TestFour" duration-ms="8" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFour -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@48eff760]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@48eff760]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@48eff760]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TestOne()[pri:0, instance:AppOne@48eff760]" name="TestOne" duration-ms="2" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestOne -->
-        <test-method status="PASS" signature="TestTwo()[pri:0, instance:AppOne@174d20a]" name="TestTwo" duration-ms="2" started-at="2017-05-24T20:10:43Z" finished-at="2017-05-24T20:10:43Z">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@48eff760]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@48eff760]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TestThree()[pri:0, instance:AppOne@48eff760]" name="TestThree" duration-ms="2" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestThree -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@48eff760]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@48eff760]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TestTwo()[pri:0, instance:AppOne@48eff760]" name="TestTwo" duration-ms="1" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTwo -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:AppOne@174d20a]" name="AfterClass" is-config="true" duration-ms="0" started-at="2017-05-24T20:10:43Z" finished-at="2017-05-24T20:10:43Z">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@48eff760]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:AppOne@48eff760]" name="AfterClass" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:AppOne@48eff760]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2017-05-24T20:20:30Z" finished-at="2017-05-24T20:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
       </class> <!-- AppOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

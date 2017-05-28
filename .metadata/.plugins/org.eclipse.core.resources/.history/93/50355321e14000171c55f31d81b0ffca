@@ -1,0 +1,13 @@
+
+public class ConcatOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String x = "Hello";
+		String y = "World";
+		System.out.println(x+y);
+
+	}
+
+}

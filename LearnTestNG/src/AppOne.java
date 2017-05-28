@@ -1,5 +1,4 @@
-import org.testng.annotations.Test;
-import org.testng.annotations.AfterClass;
+import org.testng.annotations.*;
 
 public class AppOne {
 	
@@ -12,9 +11,48 @@ public class AppOne {
 	public void TestTwo(){
 		System.out.println("--- TestTwo");
 	}
+	
+	@Test
+	public void TestThree(){
+		System.out.println("--- TestThree");
+	}
+	
+	@Test
+	public void TestFour(){
+		System.out.println("--- TestFour");
+	}
+	
+	@BeforeClass
+	public void BeforeClass(){
+		System.out.println("--- Before Class");
+	}
 
 	@AfterClass
 	public void AfterClass(){
 		System.out.println("--- After Class");
+	}
+	@BeforeMethod
+	public void BeforeMethod(){
+		System.out.println("--- Before Method");
+	}
+	@AfterMethod
+	public void AfterMethod(){
+		System.out.println("--- After Method");
+	}
+	@BeforeSuite
+	public void BeforeSuite(){
+		System.out.println("--- Before Suite");
+	}
+	@AfterSuite
+	public void AfterSuite(){
+		System.out.println("--- After Suite");
+	}
+	@AfterGroups
+	public void AfterGroups(){
+		System.out.println("--- After Groups");
+	}
+	@BeforeGroups
+	public void BeforeGroups(){
+		System.out.println("--- Before Groups");
 	}
 }
