@@ -1,0 +1,18 @@
+package OOP;
+
+public class SmartPhone extends MobilePhone{
+
+	@Override
+	public void phonebook() {
+		System.out.println("SmartPhone -> phonebook");
+		
+	}
+
+	@Override
+	public void calc() {
+		System.out.println("SmartPhone -> calc");
+		
+	}
+
+	
+}

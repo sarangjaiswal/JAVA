@@ -1,0 +1,7 @@
+package AccessModifier.Package2;
+
+public class P2Class1 extends P3Class1{
+	
+	
+
+}
