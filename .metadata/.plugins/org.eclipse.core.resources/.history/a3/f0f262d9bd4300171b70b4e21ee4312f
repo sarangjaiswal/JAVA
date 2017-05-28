@@ -1,0 +1,20 @@
+package CollectionExamples;
+
+import java.util.Hashtable;
+
+public class HashTableExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Hashtable<String, String> table1 = new Hashtable<String, String>();
+		
+		table1.put("City1", "charlotte");
+		table1.put("City2", "mumbai");
+		table1.put("City3", "kalyan");
+
+		System.out.println(table1.size());
+		System.out.println(table1.get("City1"));
+	}
+
+}
