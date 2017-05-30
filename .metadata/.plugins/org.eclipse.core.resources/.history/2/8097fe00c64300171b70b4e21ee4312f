@@ -1,0 +1,14 @@
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ReadPropertiesFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Properties p = new Properties();
+		FileInputStream ip = new FileInputStream("C:\\Users\\SARANG\\OneDrive\\Workspace\\JAVA\\LearnJAVA\\src\\test.properties")
+
+	}
+
+}
