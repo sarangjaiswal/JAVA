@@ -1,0 +1,21 @@
+import java.lang.reflect.Method;
+
+import org.testng.annotations.DataProvider;
+
+public class dataprovider {
+	
+	@DataProvider(name="getdata")
+	public Object[][] getdata(Method m){
+		
+		Object[][] data = null;
+		
+		if(m.getName()=="TestA"){
+			
+		}else if (m.getName()=="TestB"){
+			
+		}
+		
+		
+		return data;
+	}
+}

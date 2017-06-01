@@ -55,12 +55,4 @@ public class AppOne {
 	public void BeforeGroups(){
 		System.out.println("--- Before Groups");
 	}
-	@Test(dataProviderClass=dataprovider.class, dataProvider="getdata")
-	public void TestA(String a, String b){
-		
-	}
-	@Test(dataProviderClass=dataprovider.class, dataProvider="getdata")
-	public void TestB(String a, String b, String c){
-		
-	}	
 }
