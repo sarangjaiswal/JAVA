@@ -1,183 +1,413 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="100" passed="100">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77" started-at="2017-06-01T01:13:53Z" finished-at="2017-06-01T01:13:53Z">
+  <suite name="Default suite" duration-ms="486" started-at="2017-06-01T01:45:38Z" finished-at="2017-06-01T01:45:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77" started-at="2017-06-01T01:13:53Z" finished-at="2017-06-01T01:13:53Z">
-      <class name="AppOne">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:AppOne@402f32ff]" name="BeforeSuite" is-config="true" duration-ms="11" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:AppOne@402f32ff]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="TestA(java.lang.String, java.lang.String)[pri:0, instance:AppOne@402f32ff]" name="TestA" duration-ms="7" started-at="2017-05-31T21:13:53Z" data-provider="getdata" finished-at="2017-05-31T21:13:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mumbai]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pune]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="486" started-at="2017-06-01T01:45:38Z" finished-at="2017-06-01T01:45:39Z">
+      <class name="performanceTestingExample">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="16" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestA -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TestA(java.lang.String, java.lang.String)[pri:0, instance:AppOne@402f32ff]" name="TestA" duration-ms="2" started-at="2017-05-31T21:13:53Z" data-provider="getdata" finished-at="2017-05-31T21:13:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="24" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestA -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="15" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="17" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TestB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AppOne@402f32ff]" name="TestB" duration-ms="2" started-at="2017-05-31T21:13:53Z" data-provider="getdata" finished-at="2017-05-31T21:13:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Charlotte]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Myrtle Beach]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="16" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestB -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="20" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TestB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AppOne@402f32ff]" name="TestB" duration-ms="2" started-at="2017-05-31T21:13:53Z" data-provider="getdata" finished-at="2017-05-31T21:13:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[San diego]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Atlanta]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="23" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestB -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="20" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="18" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="25" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TestFour()[pri:0, instance:AppOne@402f32ff]" name="TestFour" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="8" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestFour -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="60" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="TestOne()[pri:0, instance:AppOne@402f32ff]" name="TestOne" duration-ms="3" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="8" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestOne -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="43" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="23" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="24" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TestThree()[pri:0, instance:AppOne@402f32ff]" name="TestThree" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="18" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestThree -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="15" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:AppOne@402f32ff]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TestTwo()[pri:0, instance:AppOne@402f32ff]" name="TestTwo" duration-ms="1" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="6" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestTwo -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:AppOne@402f32ff]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:AppOne@402f32ff]" name="AfterClass" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="52" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterClass -->
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:AppOne@402f32ff]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2017-05-31T21:13:53Z" finished-at="2017-05-31T21:13:53Z">
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- AppOne -->
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="42" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="4" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="29" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="18" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="4" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="13" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="6" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="4" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="33" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="27" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="22" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="6" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="136" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="110" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="85" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="70" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="5" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:38Z" finished-at="2017-05-31T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="14" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="105" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="6" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="5" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="7" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="8" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="30" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="12" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="2" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="20" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="0" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="15" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="11" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="9" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="8" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="6" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="5" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="105" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="106" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="94" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="1" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:performanceTestingExample@4590c9c3]" name="TestA" duration-ms="3" started-at="2017-05-31T21:45:39Z" finished-at="2017-05-31T21:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+      </class> <!-- performanceTestingExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
