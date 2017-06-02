@@ -780,3 +780,34 @@ java -ea -classpath C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\li
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50422 -protocol json -d C:\Users\SARANG\OneDrive\Workspace\JAVA\LearnTestNG\test-output C:\Users\SARANG\AppData\Local\Temp\testng-eclipse--1120436795\testng-customsuite.xml
 java -ea -classpath C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng-remote.jar:C:\Users\SARANG\OneDrive\Workspace\JAVA\LearnTestNG\bin:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\testng.jar:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\jcommander.jar:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\bsh-2.0b4.jar:C:\eclipse\plugins\org.testng.eclipse_6.11.0.201703011520\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 50422 -protocol json -d C:\Users\SARANG\OneDrive\Workspace\JAVA\LearnTestNG\test-output C:\Users\SARANG\AppData\Local\Temp\testng-eclipse--1120436795\testng-customsuite.xml
+!SESSION 2017-06-02 05:56:56.284 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-06-02 05:58:40.129
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-06-02 05:58:47.381
+!MESSAGE Monitoring content of C:\Users\SARANG\.aws\credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-06-02 05:58:48.581
+!MESSAGE AWS toolkit core plugin initialized after 8454 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-06-02 05:58:48.691
+!MESSAGE Found valid identity id cache us-east-1:070b4c72-18c7-4ab5-ab80-1be15ac7d729
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-02 05:59:16.761
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\SARANG'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 0 2017-06-02 05:59:29.025
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
