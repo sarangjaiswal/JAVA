@@ -1,0 +1,42 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class PlaywithTextField {
+	
+	@Test
+	public void Test_TextField(){
+		System.setProperty("webdriver.chrome.driver", "C:\\framework\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("http://www.bbc.com");
+		
+		//Working with Text
+		//WebElement element = driver.findElement(By.xpath("//*[@id='orb-search-q']"));
+		//System.out.println(element.getAttribute("placeholder"));
+		
+		
+		//Working with Links
+		//WebElement element = driver.findElement(By.xpath("//*[@id='orb-nav-links']/ul/li[2]/a"));
+		//WebElement element = driver.findElement(By.partialLinkText("ews"));
+		//WebElement element = driver.findElement(By.linkText("News"));
+		//System.out.println(element.getAttribute("href"));
+		
+		//XPath Eq - .//*[@id='orb-nav-links']/ul/li[2]/a
+		
+		// CSS Equi - *[id='orb-nav-links'] ul li:nth-child(3) a
+		
+		WebElement element = driver.findElement(By.cssSelector("*[id='orb-nav-links'] ul li:nth-child(3) a"));
+		System.out.println(element.getAttribute("name") + " - " + element.getAttribute("href")); 
+		
+		
+		//element.click();
+		
+		driver.close();
+		driver.quit();
+	}
+
+}

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16526" started-at="2017-06-02T11:42:34Z" finished-at="2017-06-02T11:42:51Z">
+  <suite name="Default suite" duration-ms="54686" started-at="2017-06-02T20:49:52Z" finished-at="2017-06-02T20:50:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16526" started-at="2017-06-02T11:42:34Z" finished-at="2017-06-02T11:42:51Z">
-      <class name="PlaywithTextField">
-        <test-method status="PASS" signature="Test_TextField()[pri:0, instance:PlaywithTextField@6767c1fc]" name="Test_TextField" duration-ms="16497" started-at="2017-06-02T07:42:34Z" finished-at="2017-06-02T07:42:51Z">
+    <test name="Default test" duration-ms="54686" started-at="2017-06-02T20:49:52Z" finished-at="2017-06-02T20:50:47Z">
+      <class name="AllElements">
+        <test-method status="PASS" signature="getAllLinks()[pri:0, instance:AllElements@6767c1fc]" name="getAllLinks" duration-ms="54662" started-at="2017-06-02T16:49:52Z" finished-at="2017-06-02T16:50:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_TextField -->
-      </class> <!-- PlaywithTextField -->
+        </test-method> <!-- getAllLinks -->
+      </class> <!-- AllElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
