@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26326" started-at="2017-06-06T22:28:50Z" finished-at="2017-06-06T22:29:16Z">
+  <suite name="Default suite" duration-ms="8274" started-at="2017-06-07T09:41:00Z" finished-at="2017-06-07T09:41:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26326" started-at="2017-06-06T22:28:50Z" finished-at="2017-06-06T22:29:16Z">
-      <class name="TestBing">
-        <test-method status="PASS" signature="BingTest()[pri:0, instance:TestBing@6767c1fc]" name="BingTest" duration-ms="26279" started-at="2017-06-06T18:28:50Z" finished-at="2017-06-06T18:29:16Z">
+    <test name="Default test" duration-ms="8274" started-at="2017-06-07T09:41:00Z" finished-at="2017-06-07T09:41:08Z">
+      <class name="PopUpManagement">
+        <test-method status="PASS" signature="PopupTest()[pri:0, instance:PopUpManagement@c038203]" name="PopupTest" duration-ms="8246" started-at="2017-06-07T05:41:00Z" finished-at="2017-06-07T05:41:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BingTest -->
-      </class> <!-- TestBing -->
+        </test-method> <!-- PopupTest -->
+      </class> <!-- PopUpManagement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,9 +1,0 @@
-package AccessModifier.Package3;
-
-public class P3Class1 {
-	
-	public func1(){
-		System.out.println("P3Class1 -> func1");
-	}
-
-}
