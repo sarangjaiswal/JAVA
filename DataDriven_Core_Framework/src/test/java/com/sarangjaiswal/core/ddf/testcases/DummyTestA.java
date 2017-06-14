@@ -9,7 +9,9 @@ public class DummyTestA extends BaseTest{
 	public void TestA() throws InterruptedException{
 		Thread.sleep(3000);
 		System.out.println("In DummyTestA -> TestA");
-		//OpenBrowser("chrome");
+		OpenBrowser(getDatafromOR("browser"));
+		navigate(getDatafromOR("app_url"));
+		click(getDatafromOR("newslink_xpath"));
 	}
 	
 	@Test
