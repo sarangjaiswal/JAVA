@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="6043" started-at="2017-06-14T14:14:22Z" finished-at="2017-06-14T14:14:28Z">
+    <groups>
+    </groups>
+    <test name="Default Test C" duration-ms="3097" started-at="2017-06-14T14:14:22Z" finished-at="2017-06-14T14:14:25Z">
+      <class name="com.sarangjaiswal.core.ddf.testcases.DummyTestC">
+        <test-method status="FAIL" signature="TestA()[pri:0, instance:com.sarangjaiswal.core.ddf.testcases.DummyTestC@4883b407]" name="TestA" duration-ms="3037" started-at="2017-06-14T10:14:22Z" finished-at="2017-06-14T10:14:25Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[A]> but was:<[B]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[A]> but was:<[B]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.sarangjaiswal.core.ddf.testcases.DummyTestC.TestA(DummyTestC.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="SKIP" signature="TestB()[pri:0, instance:com.sarangjaiswal.core.ddf.testcases.DummyTestC@4883b407]" name="TestB" duration-ms="12" started-at="2017-06-14T10:14:25Z" depends-on-methods="com.sarangjaiswal.core.ddf.testcases.DummyTestC.TestA" finished-at="2017-06-14T10:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB -->
+        <test-method status="SKIP" signature="TestC()[pri:0, instance:com.sarangjaiswal.core.ddf.testcases.DummyTestC@4883b407]" name="TestC" duration-ms="1" started-at="2017-06-14T10:14:25Z" depends-on-methods="com.sarangjaiswal.core.ddf.testcases.DummyTestC.TestA, com.sarangjaiswal.core.ddf.testcases.DummyTestC.TestB" finished-at="2017-06-14T10:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC -->
+      </class> <!-- com.sarangjaiswal.core.ddf.testcases.DummyTestC -->
+    </test> <!-- Default Test C -->
+    <test name="Default Test B" duration-ms="6043" started-at="2017-06-14T14:14:22Z" finished-at="2017-06-14T14:14:28Z">
+      <class name="com.sarangjaiswal.core.ddf.testcases.DummyTestB">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:com.sarangjaiswal.core.ddf.testcases.DummyTestB@604ed9f0]" name="TestA" duration-ms="3018" started-at="2017-06-14T10:14:22Z" finished-at="2017-06-14T10:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestB()[pri:0, instance:com.sarangjaiswal.core.ddf.testcases.DummyTestB@604ed9f0]" name="TestB" duration-ms="3006" started-at="2017-06-14T10:14:25Z" finished-at="2017-06-14T10:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB -->
+      </class> <!-- com.sarangjaiswal.core.ddf.testcases.DummyTestB -->
+    </test> <!-- Default Test B -->
+    <test name="Default Test A" duration-ms="6040" started-at="2017-06-14T14:14:22Z" finished-at="2017-06-14T14:14:28Z">
+      <class name="com.sarangjaiswal.core.ddf.testcases.DummyTestA">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:com.sarangjaiswal.core.ddf.testcases.DummyTestA@7823a2f9]" name="TestA" duration-ms="3018" started-at="2017-06-14T10:14:22Z" finished-at="2017-06-14T10:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestB()[pri:0, instance:com.sarangjaiswal.core.ddf.testcases.DummyTestA@7823a2f9]" name="TestB" duration-ms="3002" started-at="2017-06-14T10:14:25Z" finished-at="2017-06-14T10:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB -->
+      </class> <!-- com.sarangjaiswal.core.ddf.testcases.DummyTestA -->
+    </test> <!-- Default Test A -->
+  </suite> <!-- Default Suite -->
+</testng-results>

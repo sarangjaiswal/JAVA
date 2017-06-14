@@ -1,0 +1,24 @@
+package com.sarangjaiswal.core.ddf.testcases;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
+public class DummyTestC {
+	@Test(priority=1)
+	public void TestA(){
+		System.out.println("In DummyTestC -> TestA");
+		Assert.assertEquals("A", "B");
+	}
+	
+	@Test(priority=2, dependsOnMethods={"TestA"})
+	public void TestB(){
+		System.out.println("In DummyTestC -> TestB");
+	}
+	
+	@Test(priority=3, dependsOnMethods={"TestA","TestB"})
+	public void TestC(){
+		System.out.println("In DummyTestC -> TestC");
+	}
+
+}

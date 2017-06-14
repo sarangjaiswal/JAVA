@@ -1,0 +1,21 @@
+package com.sarangjaiswal.core.ddf.testcases;
+
+import org.testng.annotations.Test;
+
+public class DummyTestC {
+	@Test
+	public void TestA(){
+		System.out.println("In DummyTestC -> TestA");
+	}
+	
+	@Test
+	public void TestB(){
+		System.out.println("In DummyTestC -> TestB");
+	}
+	
+	@Test
+	public void TestC(){
+		System.out.println("In DummyTestC -> TestC");
+	}
+
+}

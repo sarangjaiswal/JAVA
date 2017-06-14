@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" parallel="tests">
+  <test name="Default Test C(failed)" parallel="tests">
+    <classes>
+      <class name="com.sarangjaiswal.core.ddf.testcases.DummyTestC">
+        <methods>
+          <include name="TestB"/>
+          <include name="TestC"/>
+          <include name="TestA"/>
+        </methods>
+      </class> <!-- com.sarangjaiswal.core.ddf.testcases.DummyTestC -->
+    </classes>
+  </test> <!-- Default Test C(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,54 @@
+package com.sarangjaiswal.core.ddf.base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseTest {
+	
+	public WebDriver driver = null;
+	public void OpenBrowser(String btype){
+		
+		
+		if(btype.equals("chrome")){
+			System.setProperty("webdriver.chrome.driver", "C:\\framework\\chromedriver_win32\\chromedriver.exe");
+			driver = new ChromeDriver();
+		}
+	}
+	
+	public void navigate(){
+		
+	}
+	
+	public void click(){
+		
+	}
+	
+	public void type(){
+		
+	}
+	
+	//--------------Validate ----------------
+	
+	public boolean verifyTitle(){
+		return false;
+		
+	}
+
+	public boolean isElementPresent(){
+		return false;
+		
+	}
+	
+	//---------------------------Reporting --------------------
+	public void reportPass(String msg){
+		
+	}
+	
+	public void reportFail(String msg){
+		
+	}
+	
+	public void TakeScreenshot(){
+		
+	}
+}

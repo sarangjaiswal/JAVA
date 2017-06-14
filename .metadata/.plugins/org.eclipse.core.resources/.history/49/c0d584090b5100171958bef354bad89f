@@ -1,0 +1,17 @@
+<suite name="Default Suite">
+	<test name ="Default Test">
+		<classes>
+			<class name = "com.sarangjaiswal.core.ddf.testcases.DummyTestA"></class>
+		</classes>
+	</test>
+	<test name ="Default Test">
+		<classes>
+			<class name = "com.sarangjaiswal.core.ddf.testcases.DummyTestB"></class>
+		</classes>
+	</test>
+	<test name ="Default Test">
+		<classes>
+			<class name = "com.sarangjaiswal.core.ddf.testcases.DummyTestC"></class>
+		</classes>
+	</test>
+</suite>

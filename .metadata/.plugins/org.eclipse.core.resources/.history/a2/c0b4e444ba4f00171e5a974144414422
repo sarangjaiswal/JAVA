@@ -1,0 +1,45 @@
+package com.sarangjaiswal.core.ddf.base;
+
+public class BaseTest {
+	
+	public void OpenBrowser(){
+		
+	}
+	
+	public void navigate(){
+		
+	}
+	
+	public void click(){
+		
+	}
+	
+	public void type(){
+		
+	}
+	
+	//--------------Validate ----------------
+	
+	public boolean verifyTitle(){
+		return false;
+		
+	}
+
+	public boolean isElementPresent(){
+		return false;
+		
+	}
+	
+	//---------------------------Reporting --------------------
+	public void reportPass(String msg){
+		
+	}
+	
+	public void reportFail(String msg){
+		
+	}
+	
+	public void TakeScreenshot(){
+		
+	}
+}

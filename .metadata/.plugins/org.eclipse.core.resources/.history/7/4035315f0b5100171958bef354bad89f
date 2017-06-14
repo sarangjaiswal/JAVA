@@ -1,0 +1,20 @@
+package com.sarangjaiswal.core.ddf.testcases;
+
+import org.testng.annotations.Test;
+
+import com.sarangjaiswal.core.ddf.base.BaseTest;
+
+public class DummyTestA extends BaseTest{
+	@Test
+	public void TestA(){
+		Thread.sleep(3000);
+		System.out.println("In DummyTestA -> TestA");
+		OpenBrowser("chrome");
+	}
+	
+	@Test
+	public void TestB(){
+		System.out.println("In DummyTestA -> TestB");
+	}
+
+}
