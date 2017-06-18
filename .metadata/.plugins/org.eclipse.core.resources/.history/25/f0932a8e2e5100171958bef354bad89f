@@ -1,0 +1,6 @@
+
+package com.sarangjaiswal.pom.pages;
+
+public class BasePage {
+
+}

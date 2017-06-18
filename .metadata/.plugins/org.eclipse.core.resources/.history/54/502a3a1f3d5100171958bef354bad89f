@@ -1,0 +1,5 @@
+package com.sarangjaiswal.pom.testcases;
+
+public class BaseTest {
+
+}

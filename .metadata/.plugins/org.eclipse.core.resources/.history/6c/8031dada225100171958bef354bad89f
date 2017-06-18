@@ -1,0 +1,25 @@
+package com.sarangjaiswal.pom.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.sarangjaiswal.pom.pages.LaunchPage;
+import com.sarangjaiswal.pom.pages.LoginPage;
+
+public class ProfileTest {
+	
+	@Test
+	public void testProfile(){
+		System.setProperty("webdriver.chrome.driver", "C:\\framework\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		LaunchPage launchpage = PageFactory.initElements(driver, LaunchPage.class);
+		LoginPage loginpage = launchpage.gotoLoginPage();
+		
+		
+		
+	}
+
+}

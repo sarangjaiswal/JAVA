@@ -1,0 +1,11 @@
+package com.sarangjaiswal.pom.pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class LaunchPage {
+	
+	public LaunchPage(WebDriver driver){
+		System.out.println("Here");
+	}
+
+}

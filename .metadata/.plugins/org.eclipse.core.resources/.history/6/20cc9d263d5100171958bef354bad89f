@@ -1,0 +1,10 @@
+package com.sarangjaiswal.pom.testcases;
+
+public class BaseTest {
+	
+	public void init(String bType){
+		if(bType.equals("chrome"))
+			driver = new ChromeDriver();
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.sarangjaiswal.pom.pages;
+
+public class LandingPage {
+	WebDriver driver;
+	public LandingPage(WebDriver driver){
+		
+	}
+
+}

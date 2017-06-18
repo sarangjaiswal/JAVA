@@ -1,0 +1,14 @@
+package com.sarangjaiswal.pom.pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class BasePage {
+
+	public WebDriver driver;
+	public TopMenu menu;
+	
+	public BasePage(){}
+	public BasePage(WebDriver driver){
+		this.driver = driver;
+	}
+}

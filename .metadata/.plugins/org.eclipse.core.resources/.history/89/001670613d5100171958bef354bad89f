@@ -1,0 +1,13 @@
+package com.sarangjaiswal.pom.testcases;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseTest {
+	
+	WebDriver driver;
+	public void init(String bType){
+		if(bType.equals("chrome"))
+			driver = new ChromeDriver();
+	}
+
+}

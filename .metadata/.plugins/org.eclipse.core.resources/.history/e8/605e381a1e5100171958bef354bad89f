@@ -1,0 +1,9 @@
+package com.sarangjaiswal.pom.pages;
+
+public class LaunchPage {
+	
+	public LauchPage(WebDriver driver){
+		System.out.println("Here");
+	}
+
+}

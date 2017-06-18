@@ -1,0 +1,11 @@
+package com.sarangjaiswal.pom.util;
+
+import com.relevantcodes.extentreports.ExtentReports;
+
+public class ExtentManager {
+	private static ExtentReports extent;
+	if(extent == null){
+		
+	}
+
+}

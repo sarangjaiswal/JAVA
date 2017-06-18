@@ -1,0 +1,12 @@
+package com.sarangjaiswal.pom.testcases;
+
+import org.testng.annotations.Test;
+
+public class ProfileTest {
+	
+	@Test
+	public void testProfile(){
+		System.setProperty("webdriver.chrome.driver", "");
+	}
+
+}
