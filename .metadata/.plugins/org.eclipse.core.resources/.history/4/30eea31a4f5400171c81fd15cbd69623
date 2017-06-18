@@ -1,0 +1,21 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	
+	public WebDriver driver;
+	public LoginPage(){
+		//Default Constructor
+		System.out.println("In LoginPage -> Default Constructor");
+	}
+
+	public LoginPage(WebDriver driver){
+		//Over ridden Constructor
+		this.driver = driver;
+	}
+	
+	public void doLogin(String uname, String pwd){
+		
+	}
+}

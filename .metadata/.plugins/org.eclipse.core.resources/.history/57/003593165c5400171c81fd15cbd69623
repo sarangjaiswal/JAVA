@@ -1,0 +1,17 @@
+package com.sarangjaiswal.POM.basetestcase;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.sarangjaiswal.POM.utils.Constants;
+
+public class BaseTest {
+	
+	public BaseTest(){
+		System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_URL);
+		public WebDriver driver = new ChromeDriver();		
+	}
+
+	
+
+}

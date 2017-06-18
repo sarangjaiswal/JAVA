@@ -1,0 +1,11 @@
+package com.sarangjaiswal.POM.utils;
+
+public class Constants {
+	
+	//URL's
+	public static final String SITE_URL = "https://www.lendingtree.com/";
+
+	
+	
+	//Locator's
+}

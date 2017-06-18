@@ -1,0 +1,12 @@
+package com.sarangjaiswal.POM.utils;
+
+public class Constants {
+	
+	//URL's
+	public static final String SITE_URL = "https://www.lendingtree.com/";
+	public static final String CHROME_DRIVER_URL = System.getProperty("user.dir")+"\\resources\\chromedriver.exe";
+	
+	
+	//Locator's
+	Login_Link_Xpath = "html/body/header/div[1]/div/nav/ul/li[5]/a";
+}

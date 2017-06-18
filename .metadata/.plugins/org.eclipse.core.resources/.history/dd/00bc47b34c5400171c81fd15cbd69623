@@ -1,0 +1,16 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	
+	public WebDriver driver;
+	public LoginPage(){
+		//Default Constructor
+		System.out.println("In LoginPage -> Default Constructor");
+	}
+
+	public Loginpage(WebDriver driver){
+		
+	}
+}

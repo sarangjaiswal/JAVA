@@ -1,0 +1,33 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class LoginPage {
+	
+	public WebDriver driver;
+	
+	@FindBy(xpath="")
+	private WebElement username_text;
+	
+	@FindBy(xpath="")
+	private WebElement password_text;
+	
+	@FindBy(xpath="")
+	private WebElement signin_button
+	
+	public LoginPage(){
+		//Default Constructor
+		System.out.println("In LoginPage -> Default Constructor");
+	}
+
+	public LoginPage(WebDriver driver){
+		//Over ridden Constructor
+		this.driver = driver;
+	}
+	
+	public void doLogin(String uname, String pwd){
+		
+	}
+}

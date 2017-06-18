@@ -1,0 +1,15 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class LandingPage {
+	
+	@Test
+	public void landingpage(){
+		
+		Webdriver driver = new ChromeDriver;
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.sarangjaiswal.POM.pages;
+
+public class LoginPage {
+	
+	public LoginPage(){
+		//Default Constructor
+		System.out.println("In LoginPage -> Default Constructor");
+	}
+
+}

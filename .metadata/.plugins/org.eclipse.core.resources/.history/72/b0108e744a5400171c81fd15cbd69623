@@ -1,0 +1,28 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class LandingPage {
+	
+	public WebDriver driver;
+	
+	public LandingPage(){
+		//Default Constructor
+		System.out.println("In LandingPage -> Default Constructor");
+	}
+	
+	public LandingPage(WebDriver driver){
+		//COnstructor Overridden
+		this.driver = driver;
+	}
+	
+	@Test
+	public void gotowebsite(String url){
+		
+				driver.get(url);
+		
+	}
+
+}

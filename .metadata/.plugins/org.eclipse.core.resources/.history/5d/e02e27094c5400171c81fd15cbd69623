@@ -1,0 +1,35 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.sarangjaiswal.POM.utils.Constants;
+
+public class LandingPage {
+	
+	public WebDriver driver;
+	
+	public LandingPage(){
+		//Default Constructor
+		System.out.println("In LandingPage -> Default Constructor");
+	}
+	
+	public LandingPage(WebDriver driver){
+		//COnstructor Overridden
+		System.out.println("In LandingPage -> Overridden Constructor -> Initializing Driver");
+		this.driver = driver;
+	}
+	
+	public void gotowebsite(String url){
+		System.out.println("In LandingPage -> gotowebsite -> opening the website");
+		driver.get(url);
+	}
+	
+	public void gotoLoginPage(){
+		driver.findElement(By.xpath(Constants.Login_Link_Xpath)).click();
+		
+	}
+
+}

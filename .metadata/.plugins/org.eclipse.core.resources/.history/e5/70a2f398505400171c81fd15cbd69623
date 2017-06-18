@@ -1,0 +1,25 @@
+package com.sarangjaiswal.POM.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.sarangjaiswal.POM.pages.LandingPage;
+import com.sarangjaiswal.POM.pages.LoginPage;
+import com.sarangjaiswal.POM.utils.Constants;
+
+public class LoginTest {
+	
+	@Test
+	public void logintest(){
+		System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_URL);
+		WebDriver driver = new ChromeDriver();
+		
+		LandingPage landingpage = PageFactory.initElements(driver, LandingPage.class);
+		landingpage.gotowebsite(Constants.SITE_URL);
+		LoginPage loginpage = landingpage.gotoLoginPage();
+		loginpage.doLogin();
+		
+	}
+}

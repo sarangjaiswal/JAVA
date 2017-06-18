@@ -1,0 +1,8 @@
+package playground;
+
+public class childclassexample {
+	public childclassexample(){
+		System.out.println("In childclasexample -> default constructor");
+	}
+
+}
