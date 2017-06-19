@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51219" started-at="2017-06-18T21:50:19Z" finished-at="2017-06-18T21:51:10Z">
+  <suite name="Default suite" duration-ms="38401" started-at="2017-06-19T13:44:42Z" finished-at="2017-06-19T13:45:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51219" started-at="2017-06-18T21:50:19Z" finished-at="2017-06-18T21:51:10Z">
+    <test name="Default test" duration-ms="38401" started-at="2017-06-19T13:44:42Z" finished-at="2017-06-19T13:45:20Z">
       <class name="com.sarangjaiswal.POM.testcases.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.sarangjaiswal.POM.testcases.LoginTest@1cd629b3]" name="init" is-config="true" duration-ms="10" started-at="2017-06-18T17:50:19Z" finished-at="2017-06-18T17:50:19Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sarangjaiswal.POM.testcases.LoginTest@1cd629b3]" name="init" is-config="true" duration-ms="50" started-at="2017-06-19T09:44:42Z" finished-at="2017-06-19T09:44:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:com.sarangjaiswal.POM.testcases.LoginTest@1cd629b3]" name="logintest" duration-ms="50752" started-at="2017-06-18T17:50:19Z" finished-at="2017-06-18T17:51:09Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.sarangjaiswal.POM.testcases.LoginTest@1cd629b3]" name="logintest" duration-ms="36183" started-at="2017-06-19T09:44:42Z" finished-at="2017-06-19T09:45:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="post()[pri:0, instance:com.sarangjaiswal.POM.testcases.LoginTest@1cd629b3]" name="post" is-config="true" duration-ms="443" started-at="2017-06-18T17:51:09Z" finished-at="2017-06-18T17:51:10Z">
+        <test-method status="PASS" signature="post()[pri:0, instance:com.sarangjaiswal.POM.testcases.LoginTest@1cd629b3]" name="post" is-config="true" duration-ms="2092" started-at="2017-06-19T09:45:18Z" finished-at="2017-06-19T09:45:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post -->

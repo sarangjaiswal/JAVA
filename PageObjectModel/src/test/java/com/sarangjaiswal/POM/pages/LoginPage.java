@@ -32,6 +32,7 @@ public class LoginPage extends BasePage{
 		
 		test.log(LogStatus.INFO,"In LoginPage -> Overridden Constructor");
 		
+		
 	}
 	
 	public LaunchPage doLogin(String uname, String pwd){
@@ -39,6 +40,7 @@ public class LoginPage extends BasePage{
 		password_text.sendKeys(pwd);
 		signin_button.click();
 		//HAPPY Path - Assuming that the login is successful
+		takeScreenshot();
 		LaunchPage launchpage = new LaunchPage(driver, test);
 		PageFactory.initElements(driver, launchpage);
 		return launchpage;
