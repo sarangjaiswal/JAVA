@@ -5,6 +5,8 @@
     <classes>
       <class name="com.sarangjaiswal.POM.testcases.LoginTest">
         <methods>
+          <include name="init"/>
+          <include name="post"/>
           <include name="logintest"/>
         </methods>
       </class> <!-- com.sarangjaiswal.POM.testcases.LoginTest -->

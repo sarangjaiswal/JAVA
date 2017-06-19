@@ -55,4 +55,11 @@
   <classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/testng/testng/6.8/testng-6.8.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mongodb/bson/3.0.4/bson-3.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar"/>
 </classpath>

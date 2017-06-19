@@ -5,11 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.sarangjaiswal.POM.basepage.BasePage;
 import com.sarangjaiswal.POM.utils.Constants;
 
 public class LoginPage extends BasePage{
-	
 	
 	@FindBy(xpath=Constants.Username_Text_Xpath)
 	private WebElement username_text;
@@ -22,13 +23,14 @@ public class LoginPage extends BasePage{
 	
 	public LoginPage(){
 		//Default Constructor
-		System.out.println("In LoginPage -> Default Constructor");
+		test.log(LogStatus.INFO,"In LoginPage -> Default Constructor");
 	}
 
-	public LoginPage(WebDriver driver){
+	public LoginPage(WebDriver driver, ExtentTest test){
 		//Over ridden Constructor
-		super(driver);
-		System.out.println("In LoginPage -> Overridden Constructor");
+		super(driver, test);
+		
+		test.log(LogStatus.INFO,"In LoginPage -> Overridden Constructor");
 		
 	}
 	
@@ -37,7 +39,9 @@ public class LoginPage extends BasePage{
 		password_text.sendKeys(pwd);
 		signin_button.click();
 		//HAPPY Path - Assuming that the login is successful
-		return PageFactory.initElements(driver, LaunchPage.class);
+		LaunchPage launchpage = new LaunchPage(driver, test);
+		PageFactory.initElements(driver, launchpage);
+		return launchpage;
 		
 	}
 }

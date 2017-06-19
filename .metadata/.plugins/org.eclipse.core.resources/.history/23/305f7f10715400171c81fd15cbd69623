@@ -1,0 +1,23 @@
+package com.sarangjaiswal.POM.basepage;
+
+import org.openqa.selenium.WebDriver;
+
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class BasePage {
+	public WebDriver driver;
+	public ExtentTest test;
+	
+	public BasePage(){
+		//default Constructor
+		System.out.println("In BasePage -> Dafault Constructor");
+	}
+	
+	public BasePage(WebDriver driver, ExtentTest test){
+		//Over ridden constructor
+		System.out.println("In BasePage -> Overridden Constructor -> initializing the Driver");
+		this.driver = driver;
+		this.test = test;
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.sarangjaiswal.POM.utils;
+
+import java.util.Date;
+
+import com.relevantcodes.extentreports.ExtentReports;
+
+public class ExtentManager {
+	
+	private static ExtentReports extent;
+	
+	public static ExtentReports getInstance(){
+		Date d = new Date();
+		String filename = d.toString().replace(":", "_").replace(" ", "_");
+		extent = new ExtentReports(Constants.REPORT_FOLDER+filename);
+		
+		return extent;
+	}
+
+}

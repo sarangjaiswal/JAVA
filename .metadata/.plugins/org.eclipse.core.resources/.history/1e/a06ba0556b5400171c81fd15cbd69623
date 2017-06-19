@@ -1,0 +1,41 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.sarangjaiswal.POM.basepage.BasePage;
+import com.sarangjaiswal.POM.utils.Constants;
+
+public class LandingPage extends BasePage{
+	
+	@FindBy(xpath=Constants.Login_Link_Xpath)
+	private WebElement LoginLink;
+	
+	public LandingPage(){
+		//Default Constructor
+		System.out.println("In LandingPage -> Default Constructor");
+	}
+	
+	public LandingPage(WebDriver driver){
+		//COnstructor Overridden
+		super(driver);
+		System.out.println("In LandingPage -> Overridden Constructor -> Initializing Driver");
+		
+	}
+	
+	public void gotowebsite(String url){
+		System.out.println("In LandingPage -> gotowebsite -> opening the website");
+		driver.get(url);
+	}
+	
+	public LoginPage gotoLoginPage(){
+		System.out.println("In landingPage -> gotoLoginPage -> navigating to Login Page");
+		LoginLink.click();
+		//HAPPY PATH - Assumption is that there is no failure while navigating to the LoginPage. 
+		return PageFactory.initElements(driver, LoginPage.class);
+	}
+
+}

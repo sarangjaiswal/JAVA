@@ -1,0 +1,15 @@
+package com.sarangjaiswal.POM.pages;
+
+import org.openqa.selenium.WebDriver;
+
+import com.relevantcodes.extentreports.ExtentTest;
+import com.sarangjaiswal.POM.basetestcase.BaseTest;
+
+public class LaunchPage extends BasePage{
+	public LaunchPage(WebDriver driver, ExtentTest test){
+		super(driver);
+		this.test = test;
+		
+	}
+
+}

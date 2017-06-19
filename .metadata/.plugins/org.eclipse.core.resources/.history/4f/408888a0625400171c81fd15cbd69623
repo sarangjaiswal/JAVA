@@ -1,0 +1,5 @@
+package com.sarangjaiswal.POM.utils;
+
+public class ExtentManager {
+
+}

@@ -1,11 +1,16 @@
 package com.sarangjaiswal.POM.utils;
 
+
 public class Constants {
 	
 	//----------URL's ------------------------
 	public static final String SITE_URL = "https://www.lendingtree.com/";
-	public static final String CHROME_DRIVER_URL = System.getProperty("user.dir")+"\\resources\\chromedriver.exe";
 	
+	//----------File Location ------------------------
+	public static final String CHROME_DRIVER_URL = System.getProperty("user.dir")+"\\resources\\chromedriver.exe";
+	public static final String REPORT_FOLDER = System.getProperty("user.dir")+"\\Reports\\";
+	public static final String SCREENSHOT_FOLDER = System.getProperty("user.dir")+"\\Screenshot\\";
+	public static final String REPORTCONFIGPATH = System.getProperty("user.dir")+"\\reportconfig.xml";
 	
 	//----------Locator's --------------------
 	//Launch Page
