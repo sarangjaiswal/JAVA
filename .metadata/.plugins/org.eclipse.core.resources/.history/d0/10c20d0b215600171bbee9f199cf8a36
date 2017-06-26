@@ -1,0 +1,10 @@
+package com.sarangjaiswal.HTTPCLIENT;
+
+public class StatusCode {
+	
+	@Test
+	public void testStatusCode(){
+		
+	}
+
+}

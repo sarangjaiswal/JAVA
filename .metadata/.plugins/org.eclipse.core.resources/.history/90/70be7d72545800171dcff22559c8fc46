@@ -1,0 +1,10 @@
+package com.sarangjaiswal.restassured;
+
+public class Examples {
+	
+	@Test
+	public void checkstatus(){
+		
+	}
+
+}

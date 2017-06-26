@@ -1,0 +1,20 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+
+import java.io.IOException;
+import org.apache.http.HttpStatus;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.sarangjaiswal.HTTPCLIENT.base.BaseTest;
+import com.sarangjaiswal.HTTPCLIENT.utils.Constants;
+
+
+public class StatusCode extends BaseTest{
+	
+	@Test
+	public void testStatusCode() throws Throwable, IOException{
+		
+		Assert.assertEquals(getStatusCode(Constants.Webservice_with_JSON_ReturnType), HttpStatus.SC_OK);
+		
+	}
+}

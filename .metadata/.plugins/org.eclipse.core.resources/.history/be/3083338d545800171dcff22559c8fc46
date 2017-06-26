@@ -1,0 +1,13 @@
+package com.sarangjaiswal.restassured;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.given;
+
+public class Examples {
+	
+	@Test
+	public void checkstatus(){
+		given().get("")
+	}
+
+}

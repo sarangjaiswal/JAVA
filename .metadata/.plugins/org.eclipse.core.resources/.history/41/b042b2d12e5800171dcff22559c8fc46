@@ -1,0 +1,18 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+
+import org.apache.http.HttpStatus;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.sarangjaiswal.HTTPCLIENT.base.BaseTest;
+import com.sarangjaiswal.HTTPCLIENT.utils.Constants;
+
+
+public class StatusCode extends BaseTest{
+	
+	@Test
+	public void testStatusCode(){
+		Assert.assertEquals(getStatuscode(Constants.Webservice_with_JSON_ReturnType), HttpStatus.SC_OK);
+		
+	}
+}

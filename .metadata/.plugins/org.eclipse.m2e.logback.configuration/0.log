@@ -187,3 +187,6 @@ java.lang.NullPointerException: null
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
+2017-06-19 12:24:26,154 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: MyCompany:GoogleApi:0.0.1-SNAPSHOT @ C:\Users\SARANG\OneDrive\Workspace\JAVA\Webservices-RestAssured-TestNG\pom.xml.
+2017-06-19 12:24:33,018 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: MyCompany:GoogleApi:0.0.1-SNAPSHOT @ C:\Users\SARANG\OneDrive\Workspace\JAVA\Webservices-RestAssured-TestNG\pom.xml.
+2017-06-19 12:25:05,039 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: MyCompany:GoogleApi:0.0.1-SNAPSHOT @ C:\Users\SARANG\OneDrive\Workspace\JAVA\Webservices-RestAssured-TestNG\pom.xml.

@@ -1,0 +1,41 @@
+package com.sarangjaiswal.HTTPCLIENT.base;
+
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.entity.ContentType;
+import org.apache.http.impl.client.HttpClientBuilder;
+
+import com.sarangjaiswal.HTTPCLIENT.utils.Constants;
+
+public class BaseTest {
+	
+	//Below function/method returns the status code of the endpoint URL. If an exception occurs it returns -1
+	public int getStatuscode(String endpointurl){
+		HttpUriRequest request = new HttpGet(endpointurl);
+		try {
+			HttpResponse response = HttpClientBuilder.create().build().execute(request);
+			return response.getStatusLine().getStatusCode();
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+			return -1;
+		}
+	}
+	
+	//Below function/method returns the MIME Type of the endpoint URL.
+	public String getMIMEtype(String endpointurl){
+		HttpUriRequest request = new HttpGet(endpointurl);
+		try {
+			HttpResponse response = HttpClientBuilder.create().build().execute(request);
+			return response.getEntity().getContentType().getValue().split(":")[0];
+			//Another way to get MIME Type by using => ContentType.getOrDefault(response.getEntity()).getMimeType()
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+			return null;
+		}		
+	}
+
+}

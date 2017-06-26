@@ -1,0 +1,31 @@
+package com.sarangjaiswal.HTTPCLIENT.base;
+
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.testng.Assert;
+
+import com.sarangjaiswal.HTTPCLIENT.utils.Constants;
+
+public class BaseTest {
+	
+	public int getStatuscode(String endpoint){
+		// Create Object and pass the url
+		HttpUriRequest request = new HttpGet(Constants.Webservice_with_JSON_ReturnType);
+		// send the response or execute the request
+		HttpResponse httpResponse;
+		try {
+			httpResponse = HttpClientBuilder.create().build().execute(request);
+			return httpResponse.getStatusLine().getStatusCode();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+			return -1;
+		}
+	}
+
+}

@@ -179,6 +179,7 @@
       <service name="ElasticBeanstalk">https://elasticbeanstalk.ca-central-1.amazonaws.com/</service>
       <service name="CodeDeploy">https://codedeploy.ca-central-1.amazonaws.com/</service>
       <service name="Kinesis">https://kinesis.ca-central-1.amazonaws.com/</service>
+      <service name="Lambda">https://lambda.ca-central-1.amazonaws.com/</service>
       <service name="Logs">https://logs.ca-central-1.amazonaws.com/</service>
       <service name="KMS">https://kms.ca-central-1.amazonaws.com</service>
     </services>

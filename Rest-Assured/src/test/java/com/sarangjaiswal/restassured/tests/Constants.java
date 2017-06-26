@@ -1,0 +1,11 @@
+package com.sarangjaiswal.restassured.tests;
+
+public class Constants {
+	
+	//Webservices API EndPoints
+	
+	public static final String Webservice_with_JSON_ReturnType_LUIS = "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/13606433-af26-4628-a304-ad19eda6c915?subscription-key=e86165ff7f174a4cb4d412e6694073b9&timezoneOffset=0&verbose=true&spellCheck=true&q=Get%20me%20status%20of%20all%20open,%20closed,%20ready%20to%20retest,%20return%20for%20closure,%20in%20progress%20defects%20from%20FUT%20SIT%20UAT%20PROD%20tes%20phase";
+	public static final String Webservice_with_JSON_ReturnType = "http://headers.jsontest.com/";
+	public static final String Webservice_with_XML_ReturnType = "http://parabank.parasoft.com/parabank/services/bank/customers/12212/"; 
+
+}

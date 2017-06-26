@@ -1,0 +1,14 @@
+<suite name="RestAssured testing">
+	<test name = "API Test">
+		<groups>
+			<run>
+				<include name = "demo"/>
+			</run>
+		</groups>
+		<packages>
+			<package name = "com.sarangjaiswal.restassured.tests"/>
+			<package name = "com.sarangjaiswal.restassured.configuration"/>
+			<package name = "com.sarangjaiswal.restassured.commons"/>
+		</packages>
+	</test>
+</suite>

@@ -1,0 +1,5 @@
+package com.sarangjaiswal.restassured.configurations;
+
+public class RestAssuredConfiguration {
+
+}

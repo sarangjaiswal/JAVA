@@ -1,0 +1,9 @@
+package com.sarangjaiswal.HTTPCLIENT.utils;
+
+public class Constants {
+	
+	//Webservices API EndPoints
+	public static final String Webservice_with_JSON_ReturnType = "http://headers.jsontest.com/";
+	public static final String Webservice_with_XML_ReturnType = "http://parabank.parasoft.com/parabank/services/bank/customers/12212/"; 
+
+}

@@ -1,0 +1,24 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+import com.sarangjaiswal.HTTPCLIENT.utils.Constants;
+
+
+public class StatusCode{
+	
+	@Test
+	public void testStatusCode() throws Throwable, IOException{
+
+		
+	}
+}

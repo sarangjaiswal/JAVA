@@ -1,0 +1,25 @@
+package com.sarangjaiswal.HTTPCLIENT;
+
+import java.io.IOException;
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.junit.Assert;
+import org.junit.Test;
+
+public class StatusCode {
+	
+	@Test
+	public void testStatusCode() throws Throwable, IOException{
+		String restURL = "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/13606433-af26-4628-a304-ad19eda6c915?subscription-key=e86165ff7f174a4cb4d412e6694073b9&timezoneOffset=0&verbose=true&spellCheck=true&q=get%20me%20status%20of%20all%20the%20defects%20which%20are%20in%20open,%20closed%20status%20in%20FUT%20SIT%20and%20UAT%20test%20Phase";
+		HttpUriRequest request = new HttpGet(restURL);
+		
+		
+
+		HttpResponse httpresponse = HttpClientBuilder.create().build().execute(request);
+		System.out.println(httpresponse.getStatusLine().getStatusCode());
+		Assert.assertEquals(httpresponse.getStatusLine().getStatusCode(), HttpStatus.SC_OK);
+	}
+}

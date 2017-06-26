@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssured testing]">
+  <test name="API Test(failed)">
+    <groups>
+      <run>
+        <include name="demo"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sarangjaiswal.restassured.tests.Examples">
+        <methods>
+          <include name="checkstatus_v2"/>
+        </methods>
+      </class> <!-- com.sarangjaiswal.restassured.tests.Examples -->
+    </classes>
+  </test> <!-- API Test(failed) -->
+</suite> <!-- Failed suite [RestAssured testing] -->

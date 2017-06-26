@@ -1,0 +1,7 @@
+package com.sarangjaiswal.restassured.commons;
+
+public interface EndPoint {
+	
+	String Luis = "/?subscription-key=e86165ff7f174a4cb4d412e6694073b9&timezoneOffset=0&verbose=true&spellCheck=true&q=Get%20me%20status%20of%20all%20open,%20closed,%20ready%20to%20retest,%20return%20for%20closure,%20in%20progress%20defects%20from%20FUT%20SIT%20UAT%20PROD%20tes%20phase"";
+
+}

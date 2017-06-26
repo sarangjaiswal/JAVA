@@ -1,0 +1,13 @@
+package com.sarangjaiswal.restassured;
+
+public class Snippet {
+	public static void main(String[] args) {
+		<dependency>
+		    <groupId>io.rest-assured</groupId>
+		    <artifactId>scala-support</artifactId>
+		    <version>3.0.3</version>
+		    <scope>test</scope>
+		</dependency>
+	}
+}
+

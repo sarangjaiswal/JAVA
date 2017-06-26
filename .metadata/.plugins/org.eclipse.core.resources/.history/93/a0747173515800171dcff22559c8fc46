@@ -1,0 +1,20 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+import org.apache.http.HttpStatus;
+import org.junit.Assert;
+import org.testng.annotations.Test;
+import com.sarangjaiswal.HTTPCLIENT.base.HelperMethods;
+import com.sarangjaiswal.HTTPCLIENT.utils.Constants;
+
+public class RegressionTest extends HelperMethods{
+	
+	@Test
+	public void testStatusCode(){
+		Assert.assertEquals(getStatuscode(Constants.Webservice_with_JSON_ReturnType_LUIS), HttpStatus.SC_OK);
+		
+	}
+	
+	@Test
+	public void testMIMEtype(){
+		Assert.assertEquals(getMIMEtype(Constants.Webservice_with_JSON_ReturnType_LUIS), "application/json");
+	}
+}

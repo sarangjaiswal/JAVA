@@ -1,0 +1,26 @@
+package com.sarangjaiswal.HTTPCLIENT;
+
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.entity.ContentType;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.junit.Test;
+
+
+
+public class MIMEType {
+	
+	@Test
+	public void testMIMEType() throws Throwable, Throwable{
+		String restURI = "http://parabank.parasoft.com/parabank/services/bank/customers/12212/";
+		HttpUriRequest request = new HttpGet(restURI);
+		HttpResponse response = HttpClientBuilder.create().build().execute(request);
+		
+		System.out.println(ContentType.getOrDefault(response.getEntity()).getMimeType());
+		
+	}
+
+}

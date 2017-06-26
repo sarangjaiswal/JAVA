@@ -1,0 +1,14 @@
+package com.sarangjaiswal.HTTPCLIENT.base;
+
+public class BaseTest {
+	
+	public boolean Verify_Equals(int expected, int actual){
+		
+		if(expected == actual){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+}

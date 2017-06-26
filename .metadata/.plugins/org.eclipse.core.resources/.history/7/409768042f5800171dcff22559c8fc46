@@ -1,0 +1,7 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+
+public class RegressionTest extends BaseTest{
+	
+	
+
+}

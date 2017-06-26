@@ -1,0 +1,24 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+
+import java.io.IOException;
+
+import javax.swing.text.Document;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.junit.Test;
+import org.w3c.dom.NodeList;
+
+import jdk.internal.org.xml.sax.SAXException;
+
+
+public class XMLContent {
+	
+	@Test
+	public void testXMLContent() throws SAXException, IOException, ParserConfigurationException, org.xml.sax.SAXException{
+		String restURL = "http://parabank.parasoft.com/parabank/services/bank/customers/12212/";
+		Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(restURL);
+		
+		NodeList nodelist = doc.getelem
+	}
+}

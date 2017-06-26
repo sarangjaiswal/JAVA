@@ -1,0 +1,13 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+
+import com.sarangjaiswal.HTTPCLIENT.base.BaseTest;
+
+public class RegressionTest extends BaseTest{
+	
+	@Test
+	public void Test1(){
+		
+	}
+	
+
+}

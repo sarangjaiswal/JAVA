@@ -1,0 +1,10 @@
+package com.sarangjaiswal.HTTPCLIENT.utils;
+
+public class Constants {
+	
+	//Webservices API EndPoints
+	public static final String Webservice_with_JSON_ReturnType = "api.openweathermap.org/data/2.5/weather?q=London";
+	public static final String Webservice_with_XML_ReturnType = "api.openweathermap.org/data/2.5/weather?q=London&mode=xml";
+	public static final String Webservice_with_HTML_ReturnType = "api.openweathermap.org/data/2.5/weather?q=London&mode=html"; 
+
+}

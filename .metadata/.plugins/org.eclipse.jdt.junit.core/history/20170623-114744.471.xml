@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MIMEType" project="HTTPCLIENT_REST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sarangjaiswal.HTTPCLIENT.tests.MIMEType" time="0.809">
+    <testcase name="testMIMEType" classname="com.sarangjaiswal.HTTPCLIENT.tests.MIMEType" time="0.809"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,15 @@
+package com.sarangjaiswal.HTTPCLIENT;
+
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.junit.Test;
+
+public class StatusCode {
+	
+	@Test
+	public void testStatusCode(){
+		String restURL = "http:////ip.jsontest.com//"
+		HttpUriRequest request = new HttpGet()
+	}
+
+}

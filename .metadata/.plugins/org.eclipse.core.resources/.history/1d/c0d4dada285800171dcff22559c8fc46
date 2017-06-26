@@ -1,0 +1,29 @@
+package com.sarangjaiswal.HTTPCLIENT.tests;
+
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+import com.sarangjaiswal.HTTPCLIENT.utils.Constants;
+
+
+public class StatusCode{
+	
+	@Test
+	public void testStatusCode() throws Throwable, IOException{
+		// Create Object and pass the url
+		HttpUriRequest request = new HttpGet(Constants.Webservice_with_JSON_ReturnType);
+		// send the response or execute the request
+		HttpResponse httpResponse = HttpClientBuilder.create().build().execute(request);
+		// Verify the response code is equal to 200
+		Assert.assertEquals(httpResponse.getStatusLine().getStatusCode(),HttpStatus.SC_OK);
+		
+	}
+}
